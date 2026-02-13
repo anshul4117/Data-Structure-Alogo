@@ -1,0 +1,16 @@
+{
+  "name": "1.js_fundementals",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "1.leap_year.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}
