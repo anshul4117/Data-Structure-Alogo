@@ -45,3 +45,20 @@
 //     fact *=i;
 // }
 // console.log("factorial of "+ n +" terms is :",fact);
+
+
+// 5. print sum of all even and odd from in range seperately
+import PromptSync from 'prompt-sync';
+const prompt = PromptSync();
+let n = Number(prompt("Enter a number : "));
+let evenSum=0, oddSum = 0;
+
+for(let i=1; i<=n; i++){
+    if(i%2==0){
+        evenSum +=i;
+    }else{
+        oddSum +=i;
+    }
+}
+console.log("sum of even numbers is : ",evenSum);
+console.log("sum of odd numbers is : ",oddSum);
